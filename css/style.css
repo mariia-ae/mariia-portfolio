@@ -190,7 +190,7 @@ section {
     max-width: 560px;
     font-size: 1.05rem;
     line-height: 1.8;
-    color: var(--light-text);
+    color: #1a1d22;
     opacity: 0.9;
 }
 /* BUTTONS*/
@@ -199,21 +199,27 @@ section {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 14px 26px;
+    padding: 13px 20px;
     border-radius: var(--radius-sm);
     text-decoration: none;
     font-weight: 600;
     transition: var(--transition);
 }
 .btn-primary {
-    background: var(--primary-gradient);
-    color: white;
-    box-shadow:
-        0 10px 30px rgba(109, 93, 252, 0.22);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13px 20px;
+    border-radius: var(--radius-sm);
+    text-decoration: none;
+    font-weight: 600;
+    background: #bbafec;
+    color: #222;
+    transition: var(--transition);
 }
 .btn-primary:hover {
     transform: translateY(-2px);
-    background: var(--primary-hover);
+    background: #9783e9;
 }
 
 /*  HERO IMAGE */
@@ -239,8 +245,8 @@ section {
 .hero-image img {
     display: block;
     width: 100%;
-    max-width: 420px;
-    height: 540px;
+    max-width: 360px;
+    height: 480px;
     object-fit: cover;
     object-position: top;
     border-radius: var(--radius-lg);
@@ -328,8 +334,8 @@ section {
     padding: 8px 14px;
     border-radius: 999px;
     background:
-        rgba(109, 93, 252, 0.12);
-    color: var(--primary-color);
+        rgba(101, 221, 121, 0.12);
+    color: #17a52a;
     font-size: 0.78rem;
     font-weight: 700;
 }
@@ -381,7 +387,7 @@ section {
     text-decoration: none;
     font-weight: 600;
     background: #f3f0ff;
-    color: var(--primary-color);
+    color: #222;
     transition: var(--transition);
 }
 .project-link:hover {
@@ -394,11 +400,11 @@ section {
 
 .contact {
     margin-top: var(--section-spacing);
-    padding: 0 var(--container-padding);
+    padding:  var(--container-padding);
 }
 .contact-container {
-    padding: 80px;
-    border-radius: 40px;
+    padding: 75px;
+    border-radius: 35px;
     background:
         linear-gradient(
             135deg,
