@@ -1,4 +1,4 @@
-const text = "Offen für Praktikumsmöglichkeiten und neue technische Herausforderungen.";
+const text = "Open to Software Development Internship.";
 const typingElement = document.getElementById("typing-text");
 
 let index = 0;
